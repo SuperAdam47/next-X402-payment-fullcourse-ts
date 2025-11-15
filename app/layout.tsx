@@ -20,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="dark flex flex-col min-h-screen bg-background">
+        <div className="dark flex flex-col h-screen bg-background overflow-hidden">
           <Header />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 overflow-hidden">{children}</main>
           {/* <Footer /> */}
           <FaucetModal />
         </div>

@@ -6,25 +6,25 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
-      <section className="py-20 px-4">
+    <div className="h-full flex flex-col overflow-hidden">
+      <section className="py-8 px-4 flex-shrink-0">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
             <span className="text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]">X</span>
             <span className="text-white">-402-orra</span>
             <span className="text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]">B</span>
             <span className="text-white">et</span>
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-4">
+          <p className="text-lg md:text-xl text-muted-foreground mb-2">
             Experiments with x402 Payments in Xorrabet
           </p>
-          <p className="text-lg text-muted-foreground/80 max-w-2xl mx-auto">
+          <p className="text-base text-muted-foreground/80 max-w-2xl mx-auto">
             Unlocking Web3 micro-payments and experiments.
           </p>
         </div>
       </section>
 
-      <section className="py-6 px-4">
+      <section className="py-4 px-4 flex-1 overflow-y-auto">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-6">
             <ExperimentCard
