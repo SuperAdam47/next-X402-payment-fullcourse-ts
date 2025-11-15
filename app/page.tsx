@@ -11,7 +11,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             <span className="text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]">X</span>
-            <span className="text-white">-402-orra</span>
+            <span className="text-white">402-orra</span>
             <span className="text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]">B</span>
             <span className="text-white">et</span>
           </h1>
