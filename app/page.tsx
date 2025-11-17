@@ -10,7 +10,7 @@ export default function Home() {
       <section className="py-8 px-4 flex-shrink-0">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]">X</span>
+            <span className="text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]">x</span>
             <span className="text-white">402-orra</span>
             <span className="text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]">B</span>
             <span className="text-white">et</span>
@@ -38,8 +38,8 @@ export default function Home() {
             <ExperimentCard
               href="/protected"
               icon={<Zap className="w-8 h-8 text-green-400" />}
-              title="Premium X402 Video"
-              description="Play X402 premium video. Unlock spins with X402 payment."
+              title="Premium x402 Jackpot games"
+              description="Access exclusive casino games. Unlock free spins with x402 payments"
               price="$0.05 USDC"
             />
           

@@ -10,7 +10,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 group">
             <Image
-                src="/images/icon-512.png"
+                src="/images/x-logo.png"
                 alt="Xorrabet Logo"
                 width={40}
                 height={40}
