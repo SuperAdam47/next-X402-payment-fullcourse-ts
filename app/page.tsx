@@ -49,7 +49,7 @@ export default function Home() {
               disabled={true}
               icon={<Image className="w-8 h-8 text-cyan-400" />}
               title="Sports Betting Arena"
-              description="Place virtual bets on games. Shows X402 payment gating. You can enjoy."
+              description="Place virtual bets on games. Shows X402 payment gating."
               price="$0.02 USDC"
             />
           </div>
