@@ -1,5 +1,6 @@
-import { CheckCircle2, Eye } from 'lucide-react';
+import { CheckCircle2, Eye, ShoppingCart, Sparkles } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 export default function PayToViewPage() {
 
@@ -33,18 +34,47 @@ export default function PayToViewPage() {
 
             <Card className="border-violet-900/30 overflow-hidden">
               <CardHeader>
-                <CardTitle>Featured Video</CardTitle>
-                <CardDescription>Thanks for your contribution!</CardDescription>
+                <div className="flex items-center gap-2">
+                  <Sparkles className="w-5 h-5 text-violet-400" />
+                  <CardTitle>Jacket Pot</CardTitle>
+                </div>
+                <CardDescription>Experience the thrill of the Jacket Pot game!</CardDescription>
               </CardHeader>
-              <CardContent className="p-0">
-                <div className="relative w-full bg-black/50 aspect-video">
-                  <iframe
-                    className="w-full h-full"
-                    src="https://www.youtube.com/embed/OYSL_xsCeHY?autoplay=1&playsinline=1"
-                    title="Web3 Presentation"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
+              <CardContent className="space-y-4">
+                <div className="relative w-full bg-gradient-to-br from-violet-900/30 via-purple-900/20 to-fuchsia-900/30 rounded-lg overflow-hidden aspect-video border border-violet-800/30">
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="text-center space-y-2">
+                      <div className="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center shadow-lg shadow-violet-500/50">
+                        <Sparkles className="w-12 h-12 text-white" />
+                      </div>
+                      <p className="text-violet-300 font-semibold text-lg">Jacket Pot Game</p>
+                      <p className="text-violet-400/70 text-sm">Premium Casino Experience</p>
+                    </div>
+                  </div>
+                  <div className="absolute top-2 right-2">
+                    <span className="px-2 py-1 bg-violet-500/20 text-violet-300 text-xs font-semibold rounded border border-violet-400/30">
+                      NEW
+                    </span>
+                  </div>
+                </div>
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between p-3 bg-violet-950/20 rounded-lg border border-violet-800/20">
+                    <div>
+                      <p className="text-sm text-violet-300 font-medium">Game Access</p>
+                      <p className="text-xs text-violet-400/70">Unlock full game features</p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-lg font-bold text-violet-400">0.1 USDC</p>
+                      <p className="text-xs text-violet-400/60">One-time purchase</p>
+                    </div>
+                  </div>
+                  <Button 
+                    className="w-full bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-semibold"
+                    size="lg"
+                  >
+                    <ShoppingCart className="w-4 h-4 mr-2" />
+                    Purchase Game Access
+                  </Button>
                 </div>
               </CardContent>
             </Card>
