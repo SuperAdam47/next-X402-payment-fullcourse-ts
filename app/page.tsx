@@ -16,10 +16,10 @@ export default function Home() {
             <span className="text-white">et</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-2">
-            Experiments with x402 Payments in Xorrabet
+            Exploring x402 Payments in Xorrabet
           </p>
           <p className="text-base text-muted-foreground/80 max-w-2xl mx-auto">
-            Unlocking Web3 micro-payments and experiments.
+            Unlocking Web3 micro-payments.
           </p>
         </div>
       </section>
